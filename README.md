@@ -4,7 +4,9 @@ Javascript framework for building html with easier and more readable way using *
 
 ### **you need to use `type="module"` for this to work**
 
-Setup index.html by importing your `main.js` as an module
+> Setup index.html by importing your `main.js` as an module
+###
+> then download this git as **dscript** folder
 # index.html
 ```html
 <body>
