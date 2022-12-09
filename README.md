@@ -34,16 +34,19 @@ eval(dScript.create(code))
 ```js
 // lets build some containers
 const code = `
+html(
     box(
         text("hello")
         text("world")
     )
+)
 `
 ```
 
 ```js
 // and maybe some rows and collumns...
 const code = `
+html(
     row(
         text("Hello ")
         text("World")
@@ -52,12 +55,14 @@ const code = `
         text("Hello ")
         text("World")
     )
+)
 `
 ```
 
 ```js
 // now use something more useful
 const code = `
+html(
     column(
         start(
             text("im at the start")
@@ -69,6 +74,7 @@ const code = `
             text("im at the end!")
         )
     )
+)
 `
 ```
 
@@ -79,12 +85,14 @@ const code = `
 // why text_style tho? because : refer to atribute given by its parent
 // in the line with :color(), the parent was text_style
 const code = `
+html(
     text(
         text_style(
             :color("red")
         )   
         "I have red colour!"
     )
+)
 `
 ```
 
@@ -92,6 +100,7 @@ const code = `
 // noticed we didnt used text(...) in previous code, that's because we dont need text() if the string is in the last parameter/child
 // let's use another example
 const code = `
+html(
     box(
         :class("myTitle")
         :background("blue")
@@ -102,12 +111,14 @@ const code = `
             "My website's title"
         )
     )
+)
 `
 ```
 
 ```js
 // now after knowing the basics, here is some example app
 const code = `
+html(
     box(
         :background("#222")
         :padding("8px")
@@ -133,5 +144,6 @@ const code = `
             )
         )
     )
+)
 `
 ```
