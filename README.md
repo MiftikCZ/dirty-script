@@ -18,7 +18,7 @@ Javascript framework for building html with easier and more readable way using *
 
 # main.js
 ```js
-import { dScript } from "./dscript/dscript.js";
+import { dScript, global } from "./dscript/dscript.js";
 
 const code = `
 html(
