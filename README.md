@@ -11,6 +11,7 @@ Javascript framework for building html with easier and more readable way using *
 ```html
 <body>
     ...
+    <div id="root"></div>
     <script src="main.js" type="module"></script>
 </body>
 ```
